@@ -1,0 +1,60 @@
+@font-face {
+  font-family: sans-serif;
+  src: url();
+}
+body {
+  font-family: sans-serif;
+  font-size: 12.5px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.oracle{
+    color: red;    
+}
+.oracle:hover{
+    transition: 1s;
+    color: black;
+}
+h5{
+    color: red;
+}
+a {
+    color: rgb(24, 89, 89);
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    background-color: rgb(114, 133, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select:hover {
+    background-color: antiquewhite;
+  }
+  
+  option:hover {
+    background-color: antiquewhite;
+  }
+  
+  input:hover {
+    background-color: antiquewhite;
+  }
+  
+  textarea:hover {
+    background-color: antiquewhite;
+  }
+  
+  @media screen and (max-width:680px){
+    #maincontent{
+      width: auto;
+      float: none;
+    }
+    #sidebar{
+      width: auto;
+      float: none;
+    }
+  }
